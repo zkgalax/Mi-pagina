@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS</title>
+    </head>
+    <body>
+        <h1 style="color:blue;">Titulo: Colores de texto</h1>
+        <p style="color:green">Texto de color verde</p>
+        <p style="color:white;background-color:black">Texto de color blanco y fondo negro</p>
+        <p style="color:darkcyan;border:2px solid red">Texto de color cyan con borde rojo</p>
+        <p style="color:darkcyan;border:2px solid red;background-color: aquamarine;">Texto de color cyan
+            con borde rojo y fondo aguamarina</p>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS</title>
+    </head>
+    <body>
+        <h1 style="color:blue">Titulo: Modificando textos</h1>
+        <p>Texto normal</p>
+        <p style="font-size:200%;color:darkcyan">Texto mas grande que el normal</p>
+        <p style="font-size:50%;color:darkcyan">Texto mas pequeño que el normal</p>
+        <p style="font-size:150%;font-family:sans-serif;color:darkcyan">Texto con la letra cambiada y mas grande que el
+            normal</p>
+        <p style="text-align:right;color:darkcyan">Texto alineado a la derecha</p>
+        <p style="text-align:center;color:darkcyan">Texto alineado al centro</p>
+        <p style="text-align:center;color:darkcyan">Texto alineado al certro 2</p>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML & CSS</title>
+        <style>
+            body{background-color:lightgray;}
+            h1{color:darkblue}
+            p{color:darkviolet;font-size:150%;}
+        </style>
+    </head>
+    <body>
+        <h1>Titulo: Estilos en la cabecera</h1>
+        <p>Texto mas grande de lo normal y violeta</p>
+        Texto normal
+    </body>
+</html>
