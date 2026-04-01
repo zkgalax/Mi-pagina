@@ -1,12 +1,46 @@
-p {
-    font-family: Comic Sans MS;
+h1 {
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-family:Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+}
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-blockquote {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+
 body {
-    background-color: rgb(157, 228, 252);
+    background-color: rgb(3, 217, 196);
+}
+
+button {
+    background-color: rgb(47, 0, 255);
+    color: rgb(255, 255, 255);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    border-color:black;
+}
+
+.contenedor {
+    text-align: center;
+}
+
+
+/* Estilos generales (escritorio) */
+body { background-color: rgb(3, 217, 196); }
+
+/* Pantallas de 768px o menos */
+@media screen and (max-width: 768px) {
+    body { background-color: rgb(3, 217, 196); }
 }
