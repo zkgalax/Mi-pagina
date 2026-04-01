@@ -20,7 +20,7 @@ body {
 }
 
 button {
-    background-color: rgb(47, 0, 255);
+    background-color: rgba(248, 44, 3, 0.685);
     color: rgb(255, 255, 255);
     padding: 5px 32px;
     text-align: center;
@@ -28,12 +28,25 @@ button {
     display: inline-block;
     font-size: 15px;
     border: none;
-    border-radius: 3px;
+    border-radius: 50px;
     border-color:black;
+}
+
+footer {
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(0, 182, 164);
+    color: black;
+    position:relative;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50px;
+
 }
 
 .contenedor {
     text-align: center;
 }
-
-
