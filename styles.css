@@ -37,10 +37,3 @@ button {
 }
 
 
-/* Estilos generales (escritorio) */
-body { background-color: rgb(3, 217, 196); }
-
-/* Pantallas de 768px o menos */
-@media screen and (max-width: 768px) {
-    body { background-color: rgb(3, 217, 196); }
-}
