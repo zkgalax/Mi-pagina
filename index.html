@@ -33,13 +33,28 @@ consigna. ¡Buenos días!</p></blockquote>
         <br>
         <p>Si quieres leer más del <abbr title="El Principito">Principito</abbr>, haz click en el botón de aqui abajo.</p>
         <div class="contenedor">
-            <button><ins>Leer más</ins></button>
-                <script>
-                    const button = document.querySelector("button");
-                    button.addEventListener("click", function() {
-                        window.open("https://web.seducoahuila.gob.mx/biblioweb/upload/el%20principito.pdf", "_blank");
-                    });
-                </script>
+            <button id="principito"><ins>Leer más</ins></button>
+            <h1><ins>Spider-man</ins></h1>
+            <p>Ahora te paso unos links de Mega para que veas a Spider-man 1 y 2 en Español Latino, buena calidad.</p>
+            <button id="spiderman1"><ins>Spiderman 1</ins></button>
+            <button id="spiderman2"><ins>Spiderman 2</ins></button>
         </div>
+        <script>
+            document.getElementById("principito").addEventListener("click", () => {
+                window.open("https://web.seducoahuila.gob.mx/biblioweb/upload/el%20@principito.pdf", "_blank");
+            });
+
+            document.getElementById("spiderman1").addEventListener("click", () => {
+                window.open("https://mega.nz/file/pN8wjCrb#gPHmEWhXyvAHTJctKk068mjH9ConSPcfw6otPOTWSNg", "_blank");
+            });
+
+            document.getElementById("spiderman2").addEventListener("click", () => {
+                window.open("https://mega.nz/file/gEdCTazC#2ZedmjHbXkcTy6rytG3CV7TrLFdtWBm8a9XekSTBSVd", "_blank");
+            });
+        </script>
+        <footer>
+            <p>Creado por: zKGalax</p>
+            <p>Gracias por visitar mi página web</p>
+        </footer>
     </body>
 </html>
